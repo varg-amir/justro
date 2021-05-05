@@ -1,0 +1,264 @@
+@font-face {
+    font-family: "Work Sans";
+    src: url(./fonts/WorkSans-VariableFont_wght.woff);
+  }
+
+html, body{
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: "Work Sans";
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+/** NAV SECTION **/
+.navbar{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-brand{
+    color: #00A680 !important;
+ 
+}
+
+.nav-btn{
+    background: linear-gradient(to top, #e35325, #ff8a65) ;
+    color: white !important;
+    
+}
+
+
+.header-wave{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 26%;
+}
+
+.header-logo-bg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 23%;
+}
+
+/* HERO SECTION */
+
+.left-header-bg{
+    
+    height: 10rem;
+}
+
+.hero-section{
+    height: 37.7rem;
+}
+
+.hero-text{
+    text-justify: auto !important;
+    direction: rtl !important;
+}
+
+.hero-divider{
+    background-image: url(./assetes/img/011_bg_wave.svg);
+    background-size: cover;
+    height: 12rem;
+}
+
+/* APP SECTION */
+
+.timeline div{
+    margin-bottom: 2rem;
+}
+
+.timeline:after {
+    content: '';
+    width: 0;
+    height: 100%;
+    position: absolute;
+    border: 1px solid #00A680;
+    top: 0;
+    left: 48%;
+    z-index: -1;
+  }
+
+.app-section{
+    min-height: 600px;
+}
+
+.smartphone-col{
+    background-image: url(./assetes/img/mobile.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 500px;
+
+    
+}
+
+.app-header{
+    color: #00A680;
+}
+
+.icon-timeline{
+    border: 2px solid #00A680 !important;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-timeline img{
+    fill: #00A680 !important;
+}
+
+/* DOWNLOAD SECTION */
+
+.download-title{
+    color: #00A680;
+}
+
+.download-box{
+    width: 100%;
+    box-shadow: 0 5px 20px gray;
+    border-radius: 10px;
+    font-weight: 500;
+    
+}
+
+.download-middle-right{
+    direction: ltr;
+    max-width: 400px;
+}
+
+.download-middle-right button{
+    background: linear-gradient(to top, #e35325, #ff8a65) !important;
+}
+.download-middle-right input{
+    direction: rtl;
+    outline: 0;
+    margin-left: -3rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.download-buttons button{
+    background-image: linear-gradient(to top, #00a680, #00f4bd) !important;
+    border: 0;
+}
+
+/* TRAVEL PREPARATION */
+
+.travel-bg{
+    background-image: url(./assetes/img/022_bg_amadegisafar.svg) !important;
+    background-size: cover;
+    height: 20rem;
+}
+
+.travel-btn{
+    background: linear-gradient(to top, #e35325, #ff8a65) !important;
+}
+
+/* TRAVEL IDEAS */
+
+
+
+.img{
+    
+    background-size: cover;
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+    margin: 0 10px;
+}
+
+.img1{
+    background-image: url(./assetes/img/maldive.png);
+}
+
+.img2{
+    background-image: url(./assetes/img/koh.png);
+}
+
+.img3{
+    background-image: url(./assetes/img/emarat.png);
+}
+
+.img4{
+    background-image: url(./assetes/img/estakhr.png);
+}
+
+.img5{
+    background-image: url(./assetes/img/tarikhi.png);
+}
+
+
+.all-slides{
+    
+    overflow-x: auto;
+    white-space: nowrap;
+    
+    width: 100%;
+}
+
+
+/* FOOTER */
+
+
+.footer-section{
+    background-image: url(./assetes/img/025_footer_Bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.footer-right{
+    position: relative !important;
+}
+
+.footer-right-bg{
+    position: absolute  !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    
+    
+}
+
+.footer-right-text{
+    font-size: 12px;
+}
+
+.footer-logo-img{
+    z-index: 5;
+}
+
+.telegram{
+    width: 50px;
+    height: 50px;
+    color: rgb(38, 139, 255);
+}
+
+.instagram{
+    width: 50px;
+    height: 50px;
+    color: rgb(245, 45, 45);
+}
+
+.twitter{
+    width: 50px;
+    height: 50px;
+    color: rgb(0, 56, 241);
+}
+
+.social-icons{
+    font-size: 30px;
+
+}
